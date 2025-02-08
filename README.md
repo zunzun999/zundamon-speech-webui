@@ -35,9 +35,9 @@ cd zundamon-speech-webui
 
 ### Step 2: Download Pretrained Models
 
-1. **Download GPT-SoVITS Pretrained Models**Place the pretrained models in the `GPT-SoVITS/GPT_SoVITS/pretrained_models` folder:
-2. **Download G2PW Models (For Chinese TTS Only)**Download and unzip the G2PW models from [G2PWModel_1.1.zip](https://paddlespeech.bj.bcebos.com/Parakeet/released_models/g2p/G2PWModel_1.1.zip), rename the folder to `G2PWModel`, and place it in `GPT-SoVITS/GPT_SoVITS/text`.
-3. **Download Zundamon Fine-Tuned Model**
+1. **Download GPT-SoVITS Pretrained Models**: Place the pretrained models in the `GPT-SoVITS/GPT_SoVITS/pretrained_models` folder:
+2. **Download G2PW Models**: Download and unzip the G2PW models from [G2PWModel_1.1.zip](https://paddlespeech.bj.bcebos.com/Parakeet/released_models/g2p/G2PWModel_1.1.zip), rename the folder to `G2PWModel`, and place it in `GPT-SoVITS/GPT_SoVITS/text`.
+3. **Download Zundamon Fine-Tuned Model**:
 Download the fine-tuned models for Zundamon and place them in the `zundamon-speech-webui/GPT-SoVITS` folder:
     - Fine-tuned models include `GPT_weights_v2` and `SoVITS_weights_v2`.
     - Use the following commands to download and set up the models:
@@ -65,7 +65,8 @@ Download the fine-tuned models for Zundamon and place them in the `zundamon-spee
     ```
     
 3. Open the WebUI in your browser (URL will be displayed in the terminal).
-![Zundamon WebUI Example](imgs/webui.png)
+
+![Zundamon WebUI Example](imgs/webui.PNG)
 
 ### Additional Requirements for Windows Installation
 
