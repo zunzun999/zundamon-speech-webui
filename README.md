@@ -65,7 +65,6 @@ Download the fine-tuned models for Zundamon and place them in the `zundamon-spee
     ```
     
 3. Open the WebUI in your browser (URL will be displayed in the terminal).
-
 ![Zundamon WebUI Example](imgs/webui.PNG)
 
 ### Additional Requirements for Windows Installation
