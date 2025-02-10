@@ -1,6 +1,6 @@
 # Zundamon Speech WebUI
 
-This repository provides an official trial version of the **Zundamon Speech WebUI**. It allows users to try **Zundamon's TTS audio generation** and explore its capabilities. **Voice changer functionality** will be added in the future.
+This repository provides an official trial version of the **Zundamon Speech WebUI**. It allows users to try **Zundamon's TTS audio generation** and explore its capabilities.
 
 Official website: https://zunko.jp/
 
