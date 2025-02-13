@@ -15,12 +15,12 @@ attrs==25.1.0
 audioread==3.0.1
 av==14.1.0
 blinker==1.9.0
-Brotli @ file:///C:/b/abs_c415aux9ra/croot/brotli-split_1736182803933/work
+Brotli==1.0.9
 cachetools==5.5.1
-certifi @ file:///C:/b/abs_8a944p1_gn/croot/certifi_1738623753421/work/certifi
+certifi==2025.1.31
 cffi==1.17.1
 chardet==5.2.0
-charset-normalizer @ file:///croot/charset-normalizer_1721748349566/work
+charset-normalizer==3.3.2
 click==8.1.8
 cn2an==0.5.23
 colorama==0.4.6
@@ -41,7 +41,7 @@ fastapi==0.112.1
 faster-whisper==1.1.1
 ffmpeg-python==0.2.0
 ffmpy==0.5.0
-filelock @ file:///C:/b/abs_f2gie28u58/croot/filelock_1700591233643/work
+filelock==3.13.1
 flatbuffers==25.1.24
 fonttools==4.55.8
 frozenlist==1.5.0
@@ -53,7 +53,7 @@ g2pk2==0.0.3
 gast==0.6.0
 gitdb==4.0.12
 GitPython==3.1.44
-gmpy2 @ file:///C:/b/abs_d8ki0o0h97/croot/gmpy2_1738085498525/work
+gmpy2==2.2.1
 gradio==4.24.0
 gradio_client==0.14.0
 grpcio==1.70.0
@@ -71,7 +71,7 @@ jaconv==0.4.0
 jamo==0.4.1
 jieba==0.42.1
 jieba_fast==0.53
-Jinja2 @ file:///C:/b/abs_10zs3i4lof/croot/jinja2_1737760123028/work
+Jinja2==3.1.5
 jmespath==0.10.0
 joblib==1.4.2
 jsonschema==4.23.0
@@ -88,16 +88,16 @@ markdown-it-py==3.0.0
 MarkupSafe==2.1.5
 matplotlib==3.9.4
 mdurl==0.1.2
+mkl_fft==1.3.11
+mkl_random==1.2.8
 mkl-service==2.4.0
-mkl_fft @ file:///C:/Users/dev-admin/mkl/mkl_fft_1730823082242/work
-mkl_random @ file:///C:/Users/dev-admin/mkl/mkl_random_1730822522280/work
 modelscope==1.10.0
 more-itertools==10.6.0
-mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
+mpmath==1.3.0
 multidict==6.1.0
 multiprocess==0.70.16
 narwhals==1.25.2
-networkx @ file:///C:/b/abs_3bxnu56g9d/croot/networkx_1717597507456/work
+networkx==3.2.1
 nltk==3.9.1
 numba==0.56.4
 numpy==1.23.5
@@ -111,6 +111,7 @@ oss2==2.19.1
 packaging==24.2
 pandas==2.2.3
 pillow==10.4.0
+pip==25.0
 platformdirs==4.3.6
 pooch==1.8.2
 proces==0.1.7
@@ -131,16 +132,16 @@ pyopenjtalk==0.4.0
 pyparsing==3.2.1
 pypinyin==0.53.0
 pyreadline3==3.5.4
-PySocks @ file:///C:/ci/pysocks_1605307512533/work
+PySocks==1.7.1
 python-dateutil==2.9.0.post0
 python-multipart==0.0.20
 pytorch-lightning==2.1.2
 pytorch-wpe==0.0.1
 pytz==2025.1
-PyYAML @ file:///C:/b/abs_14xkfs39bx/croot/pyyaml_1728657968772/work
+PyYAML==6.0.2
 referencing==0.36.2
 regex==2024.11.6
-requests @ file:///C:/b/abs_c3508vg8ez/croot/requests_1731000584867/work
+requests==2.32.3
 resampy==0.4.3
 rich==13.9.4
 rotary-embedding-torch==0.8.6
@@ -151,6 +152,7 @@ scikit-learn==1.6.1
 scipy==1.13.1
 semantic-version==2.10.0
 sentencepiece==0.2.0
+setuptools==75.8.0
 shellingham==1.5.4
 simplejson==3.19.3
 six==1.17.0
@@ -182,15 +184,16 @@ tqdm==4.67.1
 transformers==4.35.2
 typeguard==4.4.1
 typer==0.15.1
-typing_extensions @ file:///C:/b/abs_0ffjxtihug/croot/typing_extensions_1734714875646/work
+typing_extensions==4.12.2
 tzdata==2025.1
 umap-learn==0.5.7
-urllib3 @ file:///C:/b/abs_7bst06lizn/croot/urllib3_1737133657081/work
+urllib3==2.3.0
 uvicorn==0.34.0
 watchdog==6.0.0
 websockets==11.0.3
 Werkzeug==3.1.3
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wheel==0.45.1
+win-inet-pton==1.1.0
 wordsegment==1.3.1
 xxhash==3.5.0
 yapf==0.43.0
