@@ -24,6 +24,22 @@ Before starting, ensure you have the required dependencies installed:
 pip install -r requirements.txt
 ```
 
+After installing the dependencies, please install PyTorch manually from the official website.
+
+The following PyTorch version has been tested and verified to work successfully:
+
+- **PyTorch**: `2.1.2`
+- **CUDA**: `12.1`
+- **Python**: `3.9`
+
+You can install it using the [following command](https://pytorch.org/get-started/previous-versions/#linux-and-windows-19):
+
+```bash
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+```
+
+For other installation options, please visit the official [PyTorch website](https://pytorch.org/get-started/previous-versions/).
+
 ## Setup Instructions
 
 ### Step 1: Clone the Repository
