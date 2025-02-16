@@ -129,3 +129,9 @@ This software includes the following open-source software:
 - [Faster Whisper Large V3](https://huggingface.co/Systran/faster-whisper-large-v3) (MIT License)
 
 These are provided under their respective license terms.
+
+The license for the Zundamon Voice model is as follows:
+https://zunko.jp/con_ongen_kiyaku.html
+
+
+
