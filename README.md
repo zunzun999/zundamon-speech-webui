@@ -72,6 +72,18 @@ Download the [fine-tuned models](https://huggingface.co/zunzunpj/zundamon_GPT-So
 
 ### Additional Requirements for Windows Installation
 
+1. **Download and Install FFmpeg**
+    - Download and place [ffmpeg.exe](https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffmpeg.exe) and [ffprobe.exe](https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffprobe.exe).
+    - Place them in the root directory of `zundamon-speech-webui/GPT-SoVITS`.
+2. **Install Visual Studio Build Tools**
+    - Visit the [Visual Studio Download Page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+    - Download and install "Visual Studio Build Tools".
+    - During installation, select "Desktop development with C++".
+3. **Install CMake**
+    - Visit the [CMake Official Site](https://cmake.org/download/).
+    - Download and install the Windows version of CMake.
+    - During installation, choose "Add CMake to the system PATH".
+
 ## How to Use the WebUI
 
 1. Navigate to the project directory:
@@ -89,19 +101,6 @@ Download the [fine-tuned models](https://huggingface.co/zunzunpj/zundamon_GPT-So
 3. Open the WebUI in your browser (URL will be displayed in the terminal).
 ![Zundamon WebUI Example](imgs/webui.PNG)
 
-### Additional Requirements for Windows Installation
-
-1. **Download and Install FFmpeg**
-    - Download and place [ffmpeg.exe](https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffmpeg.exe) and [ffprobe.exe](https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffprobe.exe).
-    - Place them in the root directory of `zundamon-speech-webui/GPT-SoVITS`.
-2. **Install Visual Studio Build Tools**
-    - Visit the [Visual Studio Download Page](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
-    - Download and install "Visual Studio Build Tools".
-    - During installation, select "Desktop development with C++".
-3. **Install CMake**
-    - Visit the [CMake Official Site](https://cmake.org/download/).
-    - Download and install the Windows version of CMake.
-    - During installation, choose "Add CMake to the system PATH".
 
 ## How to Generate Zundamon's Voice Audio
 
