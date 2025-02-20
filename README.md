@@ -56,6 +56,9 @@ cd zundamon-speech-webui
         
         ```bash
         git lfs install
+        ```
+
+        ```bash
         git clone https://huggingface.co/lj1995/GPT-SoVITS
         ```
 2. **Download G2PW Models**: Download and unzip the G2PW models from [G2PWModel_1.1.zip](https://paddlespeech.bj.bcebos.com/Parakeet/released_models/g2p/G2PWModel_1.1.zip), rename the folder to `G2PWModel`, and place it in `GPT-SoVITS/GPT_SoVITS/text`.
@@ -65,7 +68,6 @@ Download the [fine-tuned models](https://huggingface.co/zunzunpj/zundamon_GPT-So
     - Use the following commands to download and set up the models:
         
         ```bash
-        git lfs install
         git clone https://huggingface.co/zunzunpj/zundamon_GPT-SoVITS
         ```
         
