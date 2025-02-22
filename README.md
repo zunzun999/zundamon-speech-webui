@@ -86,6 +86,25 @@ Download the [fine-tuned models](https://huggingface.co/zunzunpj/zundamon_GPT-So
     - Download and install the Windows version of CMake.
     - During installation, choose "Add CMake to the system PATH".
 
+### Troubleshooting
+
+If you encounter an error like:
+
+```
+An error occurred during inference:
+Resource averaged_perceptron_tagger_eng not found.
+```
+
+Try running the following commands in your project environment:
+
+```python
+import nltk
+nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+```
+
+This will ensure the necessary NLTK resources are downloaded.
+
 ## How to Use the WebUI
 
 1. Navigate to the project directory:
