@@ -45,7 +45,7 @@ For other installation options, please visit the official [PyTorch website](http
 ### Step 1: Clone the Repository
 
 ```bash
-https://github.com/zunzun999/zundamon-speech-webui.git
+git clone https://github.com/zunzun999/zundamon-speech-webui.git
 cd zundamon-speech-webui
 ```
 
