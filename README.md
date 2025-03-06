@@ -4,6 +4,15 @@ This repository provides an official trial version of the **Zundamon Speech WebU
 
 Official website: https://zunko.jp/
 
+## Reference Movie
+
+For users who may face difficulties during installation, the following tutorial videos provide step-by-step guidance:
+
+- [Installation Guide Video 1](https://www.youtube.com/watch?v=cWBAWCUg9s4)
+- [Installation Guide Video 2](https://www.youtube.com/watch?v=nMXaVyoxGz0)
+
+By following these videos, users can avoid common issues related to folder structure and setup.
+
 ## Overview
 
 This project is based on [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) and has been adapted and fine-tuned for Zundamon's voice synthesis. The WebUI for inference is built using Streamlit, providing a user-friendly interface for generating Zundamon's speech audio files.
@@ -42,11 +51,19 @@ For other installation options, please visit the official [PyTorch website](http
 
 ## Setup Instructions
 
-### Step 1: Clone the Repository
+### **Step 1: Clone the Repository (with Submodules)**
+
+To ensure all required submodules are initialized properly, use the following command:
 
 ```bash
-git clone https://github.com/zunzun999/zundamon-speech-webui.git
+git clone --recursive https://github.com/zunzun999/zundamon-speech-webui.git
 cd zundamon-speech-webui
+```
+
+If you have already cloned the repository without the `--recursive` flag, run:
+
+```bash
+git submodule update --init --recursive
 ```
 
 ### Step 2: Download Pretrained Models
