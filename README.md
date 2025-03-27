@@ -8,8 +8,9 @@ Official website: https://zunko.jp/
 
 For users who may face difficulties during installation, the following tutorial videos provide step-by-step guidance:
 
-- [Installation Guide Video 1](https://www.youtube.com/watch?v=cWBAWCUg9s4)
-- [Installation Guide Video 2](https://www.youtube.com/watch?v=nMXaVyoxGz0)
+- [Installation Guide Video 1](https://www.youtube.com/watch?v=KZaFLIta2WU)
+- [Installation Guide Video 2](https://www.youtube.com/watch?v=cWBAWCUg9s4)
+- [Installation Guide Video 3](https://www.youtube.com/watch?v=nMXaVyoxGz0)
 
 By following these videos, users can avoid common issues related to folder structure and setup.
 
