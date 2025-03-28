@@ -30,22 +30,13 @@ This project is based on [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) an
 
 Before starting, ensure you have the required dependencies installed:
 
-```bash
-pip install -r requirements.txt
-```
+The following Python version has been tested and verified to work successfully:
 
-After installing the dependencies, please install PyTorch manually from the official website.
-
-The following PyTorch version has been tested and verified to work successfully:
-
-- **PyTorch**: `2.1.2`
-- **CUDA**: `12.1`
 - **Python**: `3.9`
 
-You can install it using the [following command](https://pytorch.org/get-started/previous-versions/#linux-and-windows-19):
-
 ```bash
-pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+pip install -r requirements-torch.txt
 ```
 
 For other installation options, please visit the official [PyTorch website](https://pytorch.org/get-started/previous-versions/).
@@ -59,6 +50,7 @@ To ensure all required submodules are initialized properly, use the following co
 ```bash
 git clone --recursive https://github.com/zunzun999/zundamon-speech-webui.git
 cd zundamon-speech-webui
+git submodule update --init
 ```
 
 If you have already cloned the repository without the `--recursive` flag, run:
